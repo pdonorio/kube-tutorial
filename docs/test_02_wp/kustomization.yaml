@@ -1,0 +1,7 @@
+secretGenerator:
+- name: mysql-pass
+  literals:
+  - password=ThisIsAVeryLongLongLongPassword
+resources:
+- wordpress-mysql-deployment.yaml
+- wordpress-deployment.yaml
